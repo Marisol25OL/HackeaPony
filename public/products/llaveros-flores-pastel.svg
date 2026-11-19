@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF1F2"/>
+      <stop offset="50%" stopColor="#FDF2F8"/>
+      <stop offset="100%" stopColor="#F5F3FF"/>
+    </linearGradient>
+    <linearGradient id="creamBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFFBF5"/>
+      <stop offset="100%" stopColor="#F5EFE6"/>
+    </linearGradient>
+    <linearGradient id="cyanText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#38BDF8"/>
+      <stop offset="100%" stopColor="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="pinkText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#F472B6"/>
+      <stop offset="100%" stopColor="#DB2777"/>
+    </linearGradient>
+    <linearGradient id="purpleText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C084FC"/>
+      <stop offset="100%" stopColor="#9333EA"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="6" stdDeviation="5" floodColor="#000" floodOpacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Soft table surface -->
+  <ellipse cx="300" cy="540" rx="260" ry="40" fill="#E2E8F0" opacity="0.4"/>
+
+  <!-- Metal rings and chains -->
+  <!-- Keychain 1: Sophia -->
+  <g transform="translate(130, 80) rotate(-8)" filter="url(#softShadow)">
+    <!-- Ring & Clasp -->
+    <circle cx="80" cy="40" r="22" fill="none" stroke="#94A3B8" strokeWidth="6"/>
+    <circle cx="80" cy="40" r="18" fill="none" stroke="#CBD5E1" strokeWidth="2"/>
+    <rect x="76" y="62" width="8" height="25" rx="3" fill="#94A3B8"/>
+    <!-- Flower charm -->
+    <g transform="translate(80, 110)">
+      <circle cx="-14" cy="-8" r="10" fill="#D8B4FE"/>
+      <circle cx="14" cy="-8" r="10" fill="#D8B4FE"/>
+      <circle cx="-14" cy="12" r="10" fill="#D8B4FE"/>
+      <circle cx="14" cy="12" r="10" fill="#D8B4FE"/>
+      <circle cx="0" cy="-16" r="10" fill="#D8B4FE"/>
+      <circle cx="0" cy="18" r="10" fill="#D8B4FE"/>
+      <circle cx="0" cy="2" r="8" fill="#FFF"/>
+    </g>
+    <!-- Base Plate -->
+    <rect x="42" y="145" width="76" height="280" rx="36" fill="url(#creamBase)" stroke="#E7DFD5" strokeWidth="4"/>
+    <!-- 3D Letters: Sophia -->
+    <g transform="translate(80, 190)">
+      <text x="0" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="url(#cyanText)" text-anchor="middle">S</text>
+      <text x="0" y="72" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="url(#cyanText)" text-anchor="middle">o</text>
+      <text x="0" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="url(#cyanText)" text-anchor="middle">p</text>
+      <text x="0" y="152" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="url(#cyanText)" text-anchor="middle">h</text>
+      <text x="0" y="188" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="url(#cyanText)" text-anchor="middle">i</text>
+      <text x="0" y="222" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="url(#cyanText)" text-anchor="middle">a</text>
+    </g>
+  </g>
+
+  <!-- Keychain 2: ALISSON -->
+  <g transform="translate(260, 60) rotate(2)" filter="url(#softShadow)">
+    <circle cx="80" cy="40" r="22" fill="none" stroke="#94A3B8" strokeWidth="6"/>
+    <rect x="76" y="62" width="8" height="25" rx="3" fill="#94A3B8"/>
+    <!-- Pink flower charm -->
+    <g transform="translate(80, 110)">
+      <circle cx="-14" cy="-8" r="10" fill="#F472B6"/>
+      <circle cx="14" cy="-8" r="10" fill="#F472B6"/>
+      <circle cx="-14" cy="12" r="10" fill="#F472B6"/>
+      <circle cx="14" cy="12" r="10" fill="#F472B6"/>
+      <circle cx="0" cy="-16" r="10" fill="#F472B6"/>
+      <circle cx="0" cy="18" r="10" fill="#F472B6"/>
+      <circle cx="0" cy="2" r="8" fill="#FFF"/>
+    </g>
+    <!-- Base Plate -->
+    <rect x="42" y="145" width="76" height="320" rx="36" fill="url(#creamBase)" stroke="#E7DFD5" strokeWidth="4"/>
+    <!-- 3D Letters: ALISSON in Lavender -->
+    <g transform="translate(80, 185)">
+      <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">A</text>
+      <text x="0" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">L</text>
+      <text x="0" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">I</text>
+      <text x="0" y="144" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">S</text>
+      <text x="0" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">S</text>
+      <text x="0" y="224" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">O</text>
+      <text x="0" y="264" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="32" fill="url(#purpleText)" text-anchor="middle">N</text>
+    </g>
+  </g>
+
+  <!-- Keychain 3: Ms. Marci -->
+  <g transform="translate(390, 85) rotate(10)" filter="url(#softShadow)">
+    <circle cx="80" cy="40" r="22" fill="none" stroke="#94A3B8" strokeWidth="6"/>
+    <rect x="76" y="62" width="8" height="25" rx="3" fill="#94A3B8"/>
+    <!-- White flower charm -->
+    <g transform="translate(80, 110)">
+      <circle cx="-14" cy="-8" r="10" fill="#FFF" stroke="#E2E8F0" strokeWidth="2"/>
+      <circle cx="14" cy="-8" r="10" fill="#FFF" stroke="#E2E8F0" strokeWidth="2"/>
+      <circle cx="-14" cy="12" r="10" fill="#FFF" stroke="#E2E8F0" strokeWidth="2"/>
+      <circle cx="14" cy="12" r="10" fill="#FFF" stroke="#E2E8F0" strokeWidth="2"/>
+      <circle cx="0" cy="-16" r="10" fill="#FFF" stroke="#E2E8F0" strokeWidth="2"/>
+      <circle cx="0" cy="18" r="10" fill="#FFF" stroke="#E2E8F0" strokeWidth="2"/>
+      <circle cx="0" cy="2" r="8" fill="#F472B6"/>
+    </g>
+    <!-- Base Plate -->
+    <rect x="42" y="145" width="76" height="270" rx="36" fill="url(#creamBase)" stroke="#E7DFD5" strokeWidth="4"/>
+    <!-- 3D Letters: Ms. Marci -->
+    <g transform="translate(80, 185)">
+      <text x="0" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="24" fill="url(#pinkText)" text-anchor="middle">Ms.</text>
+      <text x="0" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="30" fill="url(#pinkText)" text-anchor="middle">M</text>
+      <text x="0" y="104" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="30" fill="url(#pinkText)" text-anchor="middle">a</text>
+      <text x="0" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="30" fill="url(#pinkText)" text-anchor="middle">r</text>
+      <text x="0" y="178" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="30" fill="url(#pinkText)" text-anchor="middle">c</text>
+      <text x="0" y="214" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="30" fill="url(#pinkText)" text-anchor="middle">i</text>
+    </g>
+  </g>
+
+  <!-- Tag overlay -->
+  <rect x="20" y="20" width="220" height="34" rx="17" fill="#582C7B" opacity="0.9"/>
+  <text x="130" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#FFF" text-anchor="middle">✨ Impresión 3D Pastel</text>
+</svg>

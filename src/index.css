@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #FDF9F7;
+    --border-subtle: #F5EFEB;
+    --border-muted: #ECE3DE;
+  }
+
+  body {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    background-color: #FDF8F6;
+    color: #262424;
+    overflow-x: hidden;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-title {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  /* Elegant delicate cursive calligraphy */
+  .font-cursive {
+    font-family: 'Great Vibes', cursive !important;
+  }
+
+  .font-serif-delicate {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  /* Keep font-impact clean, modern, and uncluttered */
+  .font-impact {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  p, span, div, input, select, textarea, table, button {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Minimalist Palette Accents */
+.bg-morado {
+  background-color: #582C7B !important;
+}
+
+.text-morado {
+  color: #582C7B !important;
+}
+
+.border-morado {
+  border-color: #582C7B !important;
+}
+
+.bg-magenta {
+  background-color: #D94680 !important;
+}
+
+.text-magenta {
+  color: #D94680 !important;
+}
+
+.border-magenta {
+  border-color: #D94680 !important;
+}
+
+.bg-lila {
+  background-color: #8B5CF6 !important;
+}
+
+.text-lila {
+  color: #8B5CF6 !important;
+}
+
+.border-lila {
+  border-color: #8B5CF6 !important;
+}
+
+.bg-rosa {
+  background-color: #EC4899 !important;
+}
+
+.text-rosa {
+  color: #EC4899 !important;
+}
+
+.border-rosa {
+  border-color: #EC4899 !important;
+}
+
+.bg-rosa-suave {
+  background-color: #FDF2F8 !important;
+}
+
+/* Minimalist thin scrollbars */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

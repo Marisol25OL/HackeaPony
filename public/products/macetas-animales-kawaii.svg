@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="windowBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#E0F2FE"/>
+      <stop offset="60%" stopColor="#F0F9FF"/>
+      <stop offset="100%" stopColor="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="pinkEle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FBCFE8"/>
+      <stop offset="100%" stopColor="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="blueCat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#BAE6FD"/>
+      <stop offset="100%" stopColor="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="greenTurtle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#D9F99D"/>
+      <stop offset="100%" stopColor="#84CC16"/>
+    </linearGradient>
+    <linearGradient id="succulent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#4ADE80"/>
+      <stop offset="100%" stopColor="#15803D"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="2" dy="5" stdDeviation="4" floodColor="#000" floodOpacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#windowBg)"/>
+
+  <!-- Window frame and sill -->
+  <line x1="280" y1="0" x2="280" y2="440" stroke="#CBD5E1" strokeWidth="8"/>
+  <rect x="0" y="440" width="600" height="160" fill="#F8FAFC" stroke="#E2E8F0" strokeWidth="3"/>
+  <line x1="0" y1="440" x2="600" y2="440" stroke="#CBD5E1" strokeWidth="6"/>
+
+  <!-- Planter 1: Pink Elephant (Facetado 3D) -->
+  <g transform="translate(60, 240)" filter="url(#dropShadow)">
+    <!-- Succulent plant inside -->
+    <g transform="translate(85, 30)">
+      <path d="M0,0 Q-15,-30 0,-50 Q15,-30 0,0" fill="url(#succulent)"/>
+      <path d="M0,0 Q-30,-20 -40,-35 Q-15,-20 0,0" fill="#22C55E"/>
+      <path d="M0,0 Q30,-20 40,-35 Q15,-20 0,0" fill="#16A34A"/>
+      <path d="M0,0 Q-25,10 -35,5 Q-15,0 0,0" fill="#86EFAC"/>
+      <path d="M0,0 Q25,10 35,5 Q15,0 0,0" fill="#86EFAC"/>
+    </g>
+    <!-- Elephant body with 3D print layer ridges -->
+    <path d="M30,70 Q20,170 45,190 L65,190 L75,160 L100,160 L110,190 L135,190 Q150,160 145,90 Z" fill="url(#pinkEle)"/>
+    <!-- Elephant Head and Big Ears -->
+    <path d="M35,60 Q-5,40 10,110 Q35,100 45,85 Z" fill="#F472B6"/>
+    <path d="M125,60 Q165,40 150,110 Q125,100 115,85 Z" fill="#F472B6"/>
+    <!-- Head & Trunk -->
+    <ellipse cx="80" cy="85" rx="35" ry="30" fill="url(#pinkEle)"/>
+    <path d="M75,95 Q70,160 90,160 Q98,160 92,145 Q82,145 82,100 Z" fill="#F472B6"/>
+    <!-- Sleeping eye -->
+    <path d="M60,85 Q65,80 70,85" fill="none" stroke="#831843" strokeWidth="2.5" strokeLinecap="round"/>
+  </g>
+
+  <!-- Planter 2: Cyan Cat / Bulbasaur-style Planter -->
+  <g transform="translate(230, 260)" filter="url(#dropShadow)">
+    <!-- Succulent inside -->
+    <g transform="translate(90, 25)">
+      <path d="M0,0 Q-12,-35 0,-55 Q12,-35 0,0" fill="#15803D"/>
+      <path d="M0,0 Q-28,-18 -38,-35 Q-15,-15 0,0" fill="#16A34A"/>
+      <path d="M0,0 Q28,-18 38,-35 Q15,-15 0,0" fill="#22C55E"/>
+      <path d="M0,0 Q-25,5 -35,0 Q-15,-5 0,0" fill="#4ADE80"/>
+      <path d="M0,0 Q25,5 35,0 Q15,-5 0,0" fill="#4ADE80"/>
+    </g>
+    <!-- Body with print ridges -->
+    <rect x="35" y="55" width="115" height="110" rx="35" fill="url(#blueCat)"/>
+    <!-- Ears -->
+    <polygon points="35,60 25,20 60,45" fill="#0284C7"/>
+    <polygon points="120,45 155,20 145,60" fill="#0284C7"/>
+    <!-- Cute face lines -->
+    <path d="M50,85 Q58,78 66,85" fill="none" stroke="#0C4A6E" strokeWidth="2.5" strokeLinecap="round"/>
+    <path d="M100,85 Q108,78 116,85" fill="none" stroke="#0C4A6E" strokeWidth="2.5" strokeLinecap="round"/>
+    <!-- Whiskers -->
+    <line x1="42" y1="102" x2="56" y2="104" stroke="#0C4A6E" strokeWidth="2"/>
+    <line x1="42" y1="110" x2="56" y2="110" stroke="#0C4A6E" strokeWidth="2"/>
+    <!-- Legs -->
+    <rect x="45" y="155" width="22" height="20" rx="6" fill="#0284C7"/>
+    <rect x="115" y="155" width="22" height="20" rx="6" fill="#0284C7"/>
+  </g>
+
+  <!-- Planter 3: Lime Green Turtle Planter -->
+  <g transform="translate(400, 310)" filter="url(#dropShadow)">
+    <!-- Succulent inside shell -->
+    <g transform="translate(100, 15)">
+      <circle cx="-10" cy="-20" r="14" fill="#16A34A"/>
+      <circle cx="10" cy="-20" r="14" fill="#22C55E"/>
+      <circle cx="0" cy="-35" r="16" fill="#4ADE80"/>
+    </g>
+    <!-- Shell with geometric facets -->
+    <ellipse cx="100" cy="80" rx="75" ry="45" fill="url(#greenTurtle)"/>
+    <!-- Turtle Head -->
+    <ellipse cx="25" cy="70" rx="18" ry="14" fill="#84CC16"/>
+    <circle cx="22" cy="67" r="2.5" fill="#1E3A8A"/>
+    <!-- Feet -->
+    <ellipse cx="60" cy="115" rx="16" ry="10" fill="#65A30D"/>
+    <ellipse cx="140" cy="115" rx="16" ry="10" fill="#65A30D"/>
+  </g>
+
+  <!-- Badge -->
+  <rect x="20" y="20" width="230" height="34" rx="17" fill="#0284C7" opacity="0.9"/>
+  <text x="135" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#FFF" text-anchor="middle">🌱 Macetas Kawaii 3D</text>
+</svg>

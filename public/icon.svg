@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="50%" stop-color="#FCE7F3"/>
+      <stop offset="100%" stop-color="#FFE4E6"/>
+    </linearGradient>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB7185"/>
+      <stop offset="50%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#F43F5E" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="#FDA4AF" stroke-width="6" opacity="0.6"/>
+
+  <!-- 3D Isometric Cube / Printed Object -->
+  <g transform="translate(256, 280)" filter="url(#shadow)">
+    <!-- Top Face -->
+    <polygon points="0,-100 86,-50 0,0 -86,-50" fill="#FDA4AF"/>
+    <!-- Left Face -->
+    <polygon points="-86,-50 0,0 0,100 -86,50" fill="url(#roseGold)"/>
+    <!-- Right Face -->
+    <polygon points="0,0 86,-50 86,50 0,100" fill="#E11D48"/>
+    
+    <!-- 3D Print Layer lines (accent) -->
+    <line x1="-86" y1="-20" x2="0" y2="30" stroke="#FFF1F2" stroke-width="3" opacity="0.5"/>
+    <line x1="-86" y1="10" x2="0" y2="60" stroke="#FFF1F2" stroke-width="3" opacity="0.5"/>
+    <line x1="0" y1="30" x2="86" y2="-20" stroke="#FFF1F2" stroke-width="3" opacity="0.5"/>
+    <line x1="0" y1="60" x2="86" y2="10" stroke="#FFF1F2" stroke-width="3" opacity="0.5"/>
+  </g>
+
+  <!-- 3D Printer Nozzle & Hotend above the cube -->
+  <g transform="translate(256, 120)">
+    <!-- Heat block -->
+    <rect x="-35" y="-40" width="70" height="40" rx="8" fill="#475569"/>
+    <rect x="-25" y="-30" width="50" height="20" rx="4" fill="#94A3B8"/>
+    <!-- Nozzle cone -->
+    <polygon points="-25,0 25,0 6,36 -6,36" fill="url(#goldAcc)"/>
+    <!-- Extruded filament thread -->
+    <path d="M0,36 Q0,50 0,60" stroke="#FB7185" stroke-width="6" stroke-linecap="round"/>
+    <!-- Glow spark -->
+    <circle cx="0" cy="36" r="4" fill="#FEF08A"/>
+  </g>
+
+  <!-- Sparkle stars -->
+  <path d="M120,120 Q120,140 100,140 Q120,140 120,160 Q120,140 140,140 Q120,140 120,120" fill="url(#roseGold)"/>
+  <path d="M390,140 Q390,155 375,155 Q390,155 390,170 Q390,155 405,155 Q390,155 390,140" fill="#FB7185"/>
+  <path d="M370,390 Q370,402 358,402 Q370,402 370,414 Q370,402 382,402 Q370,402 370,390" fill="#F43F5E"/>
+</svg>

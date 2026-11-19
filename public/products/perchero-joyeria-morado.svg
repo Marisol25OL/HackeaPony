@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FAF5FF"/>
+      <stop offset="70%" stopColor="#F3E8FF"/>
+      <stop offset="100%" stopColor="#E9D5FF"/>
+    </linearGradient>
+    <linearGradient id="purpleRack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#D8B4FE"/>
+      <stop offset="50%" stopColor="#C084FC"/>
+      <stop offset="100%" stopColor="#A855F7"/>
+    </linearGradient>
+    <filter id="rackShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="3" dy="8" stdDeviation="6" floodColor="#581C87" floodOpacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#studioBg)"/>
+
+  <!-- Glossy White Table Surface -->
+  <polygon points="0,480 600,480 600,600 0,600" fill="#FFFFFF"/>
+  <line x1="0" y1="480" x2="600" y2="480" stroke="#E2E8F0" strokeWidth="2"/>
+
+  <!-- Reflection -->
+  <ellipse cx="300" cy="510" rx="220" ry="25" fill="#E9D5FF" opacity="0.6"/>
+
+  <!-- 3D Printed Miniature Clothes Rack in Lavender -->
+  <g transform="translate(60, 90)" filter="url(#rackShadow)">
+    
+    <!-- Left A-frame upright -->
+    <path d="M40,360 L70,80 L95,80 L125,360 Z" fill="url(#purpleRack)"/>
+    <ellipse cx="82" cy="360" rx="45" ry="12" fill="#9333EA"/>
+    
+    <!-- Right A-frame upright -->
+    <path d="M375,360 L405,80 L430,80 L460,360 Z" fill="url(#purpleRack)"/>
+    <ellipse cx="417" cy="360" rx="45" ry="12" fill="#9333EA"/>
+
+    <!-- Main Top Crossbar -->
+    <rect x="60" y="88" width="375" height="18" rx="6" fill="#9333EA"/>
+    <rect x="62" y="90" width="371" height="8" rx="4" fill="#E9D5FF" opacity="0.8"/>
+
+    <!-- Bottom Stud Earring Bar with holes -->
+    <rect x="75" y="300" width="345" height="24" rx="8" fill="url(#purpleRack)"/>
+    <!-- Holes & Gold Studs -->
+    <circle cx="100" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="130" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="160" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="210" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="240" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="270" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="320" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="350" cy="312" r="4" fill="#EAB308"/>
+    <circle cx="380" cy="312" r="4" fill="#EAB308"/>
+
+    <!-- MINI HANGERS & EARRINGS -->
+
+    <!-- Hanger 1 with Daisy Earrings -->
+    <g transform="translate(110, 100)">
+      <!-- Mini Hanger -->
+      <path d="M25,0 Q25,-12 30,-12 Q35,-12 35,0 L55,25 L5,25 Z" fill="none" stroke="#C084FC" strokeWidth="4" strokeLinejoin="round"/>
+      <path d="M5,25 L55,25" stroke="#C084FC" strokeWidth="4"/>
+      <!-- Gold earring hooks -->
+      <path d="M15,28 Q15,40 18,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <path d="M45,28 Q45,40 48,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <!-- Flower 1 -->
+      <circle cx="18" cy="65" r="14" fill="#FFF" stroke="#E2E8F0" strokeWidth="1.5"/>
+      <circle cx="18" cy="65" r="6" fill="#FACC15"/>
+      <!-- Flower 2 -->
+      <circle cx="48" cy="65" r="14" fill="#FFF" stroke="#E2E8F0" strokeWidth="1.5"/>
+      <circle cx="48" cy="65" r="6" fill="#FACC15"/>
+    </g>
+
+    <!-- Hanger 2 with Miniature Book Earrings -->
+    <g transform="translate(180, 100)">
+      <path d="M25,0 Q25,-12 30,-12 Q35,-12 35,0 L55,25 L5,25 Z" fill="none" stroke="#C084FC" strokeWidth="4" strokeLinejoin="round"/>
+      <path d="M5,25 L55,25" stroke="#C084FC" strokeWidth="4"/>
+      <path d="M15,28 Q15,40 18,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <path d="M45,28 Q45,40 48,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <!-- Books in brown clay -->
+      <rect x="8" y="52" width="20" height="26" rx="3" fill="#78350F"/>
+      <rect x="38" y="52" width="20" height="26" rx="3" fill="#78350F"/>
+    </g>
+
+    <!-- Hanger 3 with Sunflower Earrings -->
+    <g transform="translate(250, 100)">
+      <path d="M25,0 Q25,-12 30,-12 Q35,-12 35,0 L55,25 L5,25 Z" fill="none" stroke="#C084FC" strokeWidth="4" strokeLinejoin="round"/>
+      <path d="M5,25 L55,25" stroke="#C084FC" strokeWidth="4"/>
+      <path d="M15,28 Q15,40 18,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <path d="M45,28 Q45,40 48,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <!-- Sunflowers -->
+      <circle cx="18" cy="65" r="12" fill="#F59E0B"/>
+      <circle cx="18" cy="65" r="6" fill="#78350F"/>
+      <circle cx="48" cy="65" r="12" fill="#F59E0B"/>
+      <circle cx="48" cy="65" r="6" fill="#78350F"/>
+    </g>
+
+    <!-- Hanger 4 with Cute Axolotl / Bear Earrings -->
+    <g transform="translate(320, 100)">
+      <path d="M25,0 Q25,-12 30,-12 Q35,-12 35,0 L55,25 L5,25 Z" fill="none" stroke="#C084FC" strokeWidth="4" strokeLinejoin="round"/>
+      <path d="M5,25 L55,25" stroke="#C084FC" strokeWidth="4"/>
+      <path d="M15,28 Q15,40 18,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <path d="M45,28 Q45,40 48,48" stroke="#EAB308" strokeWidth="2" fill="none"/>
+      <!-- Pink axolotl charms -->
+      <ellipse cx="18" cy="65" rx="10" ry="14" fill="#F472B6"/>
+      <ellipse cx="48" cy="65" rx="10" ry="14" fill="#F472B6"/>
+    </g>
+
+  </g>
+
+  <!-- Badge -->
+  <rect x="20" y="20" width="250" height="34" rx="17" fill="#7C3AED" opacity="0.9"/>
+  <text x="145" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#FFF" text-anchor="middle">💍 Perchero Joyero 3D</text>
+</svg>

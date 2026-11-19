@@ -1,0 +1,6 @@
+{
+  "name": "MiFyMEs - Motor de Inteligencia Operativa y E-Business",
+  "description": "Solución de E-Business de nueva generación que actúa como motor de inteligencia operativa: dynamic pricing, ML stock, omnicanalidad, trazabilidad de suministros y bot de rescate.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
